@@ -1,4 +1,4 @@
 <script setup></script>
 
-<template>首ss页</template>
+<template>首页</template>
 <style lang="less" scoped></style>
