@@ -1,13 +1,14 @@
 <script setup>
 import orderMessage from '@/components/breadcrumb.vue'
 import card from '@/components/card.vue'
-import addDepart from './components/addDepart.vue'
+import addDepart from '@/components/addDepart.vue'
 import { useUserStore } from '@/stores'
 import { getDepartIdData } from '@/utils/departData.js'
 import { Edit, Delete, DocumentAdd } from '@element-plus/icons-vue'
 import { userDepartDeleteServe,useDepartServe} from '@/api/depart.js'
 import { myConfirm } from '@/utils/myConfirm.js'
 import { ref } from 'vue'
+
 const userStore = useUserStore()
 const breadName = userStore.breadName
 //总数据
